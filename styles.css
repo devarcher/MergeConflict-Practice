@@ -1,29 +1,33 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
+} */
 body {
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
 }
 
 div {
-  margin: 0 auto;
-  width: 80px;
-  height: 80px;
-  border: 1px solid red;
+  margin: 1% 1% 1% 1%;
+  margin-top: 15%;
+  width: 100px;
+  height: 100px; 
+}
+h3 {
+  text-align: center;
 }
 
-.a1 {
-  background: mistyrose;
+.dark {
+  background-color: #373737;
 }
-
-.a2 {
-  background: fuchsia;
+.red {
+  background-color: #DF9291;
 }
-
-.a3 {
-  background: grey;
+.blue {
+  background-color: #93AFCF;
 }
